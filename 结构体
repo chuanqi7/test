@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<string.h>
+
+struct Student
+{
+	char name[20];//小黑子
+	char school[35];//XX大学
+	long ID;//2020210565
+	short classe;//1班
+	short your;//2022级
+	char t[10];//通信工程
+};
+
+int main()
+{
+	struct Student s1 = { "小黑子","XX大学",2020210XXX,1,2022,"通信工程" };
+	printf("姓名：%s\n", s1.name);
+	printf("学校：%s\n", s1.school);
+	printf("学号：%d\n", s1.ID);
+	printf("班级：%d班\n", s1.classe);
+	printf("年级：%d级\n", s1.your);
+	printf("专业：%s\n", s1.t);
+	return 0;
+}
