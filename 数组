@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+#define N 4
+int main()
+{
+	int i;
+	for (i=0;i<N;i++)
+	{
+		int arr[] = { 'l','o','v','e' };
+		printf("%c\t", arr[i]-32);
+	}
+	return 0;
+}
